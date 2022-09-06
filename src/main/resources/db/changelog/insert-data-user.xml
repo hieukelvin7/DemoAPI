@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.4.xsd">
+
+    <changeSet id="03" author="hieu">
+        <insert tableName="userabc">
+            <column name="id" valueNumeric="1"/>
+            <column name="name" value="tran ba hieu"/>
+            <column name="username" value="hieu1"/>
+            <column name="password" value="123456"/>
+            <column name="role" value="ADMIN"/>
+        </insert>
+
+<!--        <insert tableName="user">-->
+<!--            <column name="id" valueNumeric="2"/>-->
+<!--            <column name="name" value="nguyen van a"/>-->
+<!--            <column name="username" value="nva"/>-->
+<!--            <column name="password" value="123456"/>-->
+<!--            <column name="role" value="USER"/>-->
+<!--        </insert>-->
+<!--        <insert tableName="user">-->
+<!--            <column name="id" valueNumeric="3"/>-->
+<!--            <column name="name" value="le van c"/>-->
+<!--            <column name="username" value="lvc"/>-->
+<!--            <column name="password" value="123456"/>-->
+<!--            <column name="role" value="USER"/>-->
+<!--        </insert>-->
+<!--        <insert tableName="user">-->
+<!--            <column name="id" valueNumeric="4"/>-->
+<!--            <column name="name" value="dxc"/>-->
+<!--            <column name="username" value="dxc"/>-->
+<!--            <column name="password" value="123456"/>-->
+<!--            <column name="role" value="ADMIN"/>-->
+<!--        </insert>-->
+    </changeSet>
+</databaseChangeLog>
